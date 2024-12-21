@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "79410ED7-A782-43FB-A400-2FFBA6A96D2C",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:YomiganaSample.xcodeproj",
+      "identifier" : "8DECCAEE2D17050F0058A0AF",
+      "name" : "YomiganaSample"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:YomiganaSample.xcodeproj",
+        "identifier" : "8DECCAFE2D1705120058A0AF",
+        "name" : "YomiganaSampleTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:YomiganaSample.xcodeproj",
+        "identifier" : "8DECCB082D1705120058A0AF",
+        "name" : "YomiganaSampleUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
